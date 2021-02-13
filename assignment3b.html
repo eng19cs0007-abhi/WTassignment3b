@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h2 {text-align: center;}
+</style>
+</head>
+<body>
+
+<h2>LIST OF MY HOBBIES</h2>
+
+<div class="row">
+  <div class="column">
+<p>Watching new movie and web series</p>
+<p>
+ <a href="https://www.imdb.com/best-of/top-10-indian-web-series/ls082300244/">
+    <img src="movie.jpg" alt="Snow" style="width:100%">
+  </a>
+</p>
+  </div>
+  <div class="column">
+    <p>Reading science blog</p>
+    <p>
+ <a href="https://www.atascientific.com.au/17-science-blogs-everyone-should-follow/">
+    <img src="science.jpg" alt="Forest" style="width:100%">
+  </a>
+</p>
+  </div>
+  <div class="column">
+    <p>Listening music</p>
+    <p>
+ <a href="https://music.youtube.com/">
+    <img src="music.png" alt="Mountains" style="width:100%">
+  </a>
+</p>
+  </div>
+</div>
+
+</body>
+</html>
